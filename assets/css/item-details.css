@@ -1,0 +1,179 @@
+:root {
+    --main-purple-color: #b21af9;
+    --gradient-color-prime: #b716fa;
+    --gradient-color-second: #06b2da;
+    --main-text-color: #808080;
+    --secondary-text-color: #181818;
+    --purple-bg-color: rgb(178 26 249 / 5%);
+    --purple-bg-color-3: rgb(178 26 249 / 30%);
+    --purple-bg-color-15: rgb(178 26 249 / 15%);
+
+    --purple-bg-input-color:  rgba(178, 26, 249, 0.15)
+    } 
+body, body *, html , html * {
+    font-family: 'Rubik', sans-serif;
+}
+.cardItem{
+    position: initial;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 1.2rem;
+}
+.cardItem .imgItem{
+    height: 11rem;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.textMedium{
+    font-size: 18px;
+}
+.textSmall{
+    color: #808080;
+    font-size: 13px;
+}
+.price{
+    height: 60px;
+    margin: 6px 9px 20px 0;
+    width: 152px;
+    padding: 9px 16px 16px 16px;
+    border-radius: 16px;
+    border: solid 1px #b21af9;
+    background-color: rgba(178, 26, 249, 0.1);
+}
+.price2{
+    height: 60px;
+    margin: 6px 9px 20px 0;
+    width: 152px;
+    padding: 9px 16px 16px 16px;
+    border-radius: 16px;
+    border: solid 1px #b21af9;
+    background-color: white;
+}
+.price p,.price2 p{
+    font-size: 14px;
+}
+.price h6,.price2 h6{
+    font-size: 14px;
+    font-weight: bold;
+    color:#b21af9;
+}
+.minWidth{
+    min-width: 6.6rem;
+    margin-right: 0.4rem;
+}
+.inputQuantity{
+    width: 42px;
+    height:40px;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.minus-btn ,.plus-btn{
+    background-color: #b21af9;
+    color: white;
+}
+.btnAddCart{
+    margin-top: 0.5rem;
+    color: white;
+    height: 50px;
+    font-weight: bold;
+    background: linear-gradient(to right, #b21af9 ,#18a1dd);
+    border-radius: 15px;
+}
+.btnAddCart:hover{
+    color: white;
+    opacity: 0.8;
+}
+.served{
+    background-color:#fafafa;
+    border-radius: 10px;
+}
+.imgSimilar{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.mainCourses{
+    min-width: 8.5rem;
+}
+/* =========================================== Cart Page ======================= */
+.fontText{
+    font-size: 14px;
+}
+.txtMain{
+    color: #b21af9;
+}
+.bgCart{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+.imgCart{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.btnRemove{
+    background-color:#f8f8ff;
+    border-radius: 50px;
+}
+.borderBottom{
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed indianred;
+}
+.modalConfirm{
+    border-radius: 32px 32px 0px 0px;
+    position: fixed;
+    top: auto;
+    width: auto;
+    right: 3px;
+    left: 3px;
+    bottom: 0;
+}
+.newFormControl{
+    height: 50px;
+    background-color: #e6e6e8;
+    border-radius: 15px;
+}
+.textBlack{
+    color: black;
+}
+/* =================================== */
+.imgLanding{
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+}
+.btnEnglish{
+    background-color: #edebee;
+    height: 50px;
+}
+.btnPdf{
+    color: white;
+    border-radius: 16px;
+    padding-top: 0.76rem;
+    background-image: linear-gradient(to right, var(--gradient-color-prime), var(--gradient-color-second) );
+}
+.btnFeedback{
+    border-radius: 16px;
+    border-style: solid;
+    border-color: #b677ef;
+    border-image-slice: 1;
+    background-color: white;
+    color: #535353;
+    padding-top: 0.76rem;
+}
+.cardLanding{
+    margin-top: 0.5rem;
+    box-shadow: 0 0px 10px 2px #d2caca;
+    margin-bottom: 0.5rem;
+}
+.imgLogo{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+@media screen and (max-width:400px){
+    .imgLanding{
+        height: 150px;
+    }
+}
