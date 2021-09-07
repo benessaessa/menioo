@@ -164,6 +164,7 @@ body, body *, html , html * {
 }
 .cardLanding{
     margin-top: 0.5rem;
+    height: 98vh;
     box-shadow: 0 0px 10px 2px #d2caca;
     margin-bottom: 0.5rem;
 }
